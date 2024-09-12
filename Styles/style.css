@@ -492,6 +492,11 @@ img
     transition: right 0.3s ease-in-out;
 }
 
+.active 
+{
+    right: 0;
+}
+
 .mobile-menu ul
 {
     margin-top: 100px;
@@ -528,11 +533,6 @@ img
     .navbar .hamburger-button
     {
         display: block;
-    }
-
-    .mobile-menu.active 
-    {
-        right: 0;
     }
 
     .hero .container
